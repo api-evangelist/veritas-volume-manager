@@ -1,0 +1,99 @@
+name: Veritas Volume Manager API
+description: APIs for managing storage volumes, disk groups, and file systems using Veritas Volume Manager (VVM)
+image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
+url: https://www.veritas.com/support/en_US/volume-manager
+created: '2024-01-01'
+modified: '2024-01-01'
+specificationVersion: '0.16'
+tags:
+- storage
+- volume management
+- file systems
+- disaster recovery
+- enterprise storage
+apis:
+- name: Veritas Volume Manager REST API
+  description: RESTful API for managing storage volumes, disk groups, and storage operations
+  image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
+  humanURL: https://www.veritas.com/support/en_US/volume-manager
+  baseURL: https://api.veritas.com/vvm/v1
+  tags:
+  - volumes
+  - disk groups
+  - storage pools
+  - snapshots
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/article.DOC5555
+  - type: OpenAPI
+    url: https://api.veritas.com/vvm/v1/openapi.json
+  - type: Authentication
+    url: https://www.veritas.com/support/en_US/article.AUTH100
+  - type: SDKs
+    url: https://www.veritas.com/support/en_US/downloads/sdks
+  - type: RateLimits
+    url: https://www.veritas.com/support/en_US/article.LIMITS100
+  contact:
+  - type: Support
+    url: https://www.veritas.com/support/en_US/contact-support
+  - type: Email
+    url: mailto:support@veritas.com
+  - type: Twitter
+    url: https://twitter.com/Veritas
+- name: VxVM Command Line API
+  description: Command-line interface and scripting API for Veritas Volume Manager operations
+  humanURL: https://www.veritas.com/support/en_US/article.VXVM100
+  tags:
+  - CLI
+  - scripting
+  - administration
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/article.CLI5555
+  - type: CommandReference
+    url: https://www.veritas.com/support/en_US/article.CMDREF100
+  - type: Examples
+    url: https://www.veritas.com/support/en_US/article.EXAMPLES100
+- name: Storage Foundation API
+  description: Comprehensive API for Veritas Storage Foundation including volume management
+  humanURL: https://www.veritas.com/support/en_US/storage-foundation
+  baseURL: https://api.veritas.com/sf/v1
+  tags:
+  - storage foundation
+  - enterprise
+  - high availability
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/article.SF5555
+  - type: APIReference
+    url: https://api.veritas.com/sf/v1/docs
+common:
+- type: Portal
+  url: https://my.veritas.com
+- type: GettingStarted
+  url: https://www.veritas.com/support/en_US/article.GETSTART100
+- type: TermsOfService
+  url: https://www.veritas.com/about/legal/license-agreements
+- type: PrivacyPolicy
+  url: https://www.veritas.com/about/legal/privacy-policy
+- type: Status
+  url: https://status.veritas.com
+- type: ChangeLog
+  url: https://www.veritas.com/support/en_US/article.CHANGELOG
+- type: Blog
+  url: https://www.veritas.com/blogs
+- type: Newsletter
+  url: https://www.veritas.com/newsletter-signup
+maintainers:
+- name: Veritas Technologies LLC
+  email: api-support@veritas.com
+  url: https://www.veritas.com
+- name: API Team
+  email: api-team@veritas.com
+include:
+- name: Volume Operations
+  url: https://api.veritas.com/vvm/v1/apis/volumes.yaml
+- name: Disk Group Operations
+  url: https://api.veritas.com/vvm/v1/apis/diskgroups.yaml
+- name: Snapshot Operations
+  url: https://api.veritas.com/vvm/v1/apis/snapshots.yaml
