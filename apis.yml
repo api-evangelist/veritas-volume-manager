@@ -3,7 +3,7 @@ description: APIs for managing storage volumes, disk groups, and file systems us
 image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/volume-manager
 created: '2024-01-01'
-modified: '2024-01-01'
+modified: '2026-03-03'
 specificationVersion: '0.16'
 tags:
 - storage
@@ -67,6 +67,91 @@ apis:
     url: https://www.veritas.com/support/en_US/article.SF5555
   - type: APIReference
     url: https://api.veritas.com/sf/v1/docs
+- name: Veritas InfoScale REST API
+  description: >-
+    REST API for InfoScale storage configuration and management operations
+    including volume, disk group, and cluster management. The REST server
+    is configured on cluster nodes and supports operations for storage
+    provisioning, snapshots, replication, and high availability management.
+  humanURL: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849
+  tags:
+  - infoscale
+  - REST
+  - storage configuration
+  - cluster management
+  - high availability
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849
+  - type: SupportedOperations
+    url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849
+  - type: ReleaseNotes
+    url: https://www.veritas.com/support/en_US/doc/109864724-166315456-0/index
+- name: Veritas InfoScale 9.0 REST API
+  description: >-
+    REST API support for InfoScale 9.0 providing storage configuration and
+    management operations, including HA configuration for the REST server
+    and expanded supported operations for enterprise storage management.
+  humanURL: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
+  tags:
+  - infoscale
+  - REST
+  - storage management
+  - enterprise
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
+  - type: HAConfiguration
+    url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151835060-166315478
+  - type: SolutionsGuide
+    url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v109543903-166315478
+- name: InfoScale Operations Manager Web Services API
+  description: >-
+    HTTPS-based Web Services API for Veritas InfoScale Operations Manager
+    (VIOM) providing the ability to query discovered data, manage user-defined
+    attributes, and perform operations on InfoScale objects. Supports Meta,
+    Query, Update, and Operations API categories accessible via standard
+    HTTPS clients including cURL.
+  humanURL: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index
+  tags:
+  - VIOM
+  - web services
+  - operations manager
+  - monitoring
+  - management
+  properties:
+  - type: Documentation
+    url: https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38.htm
+  - type: GettingStarted
+    url: https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38s01.htm
+  - type: Authentication
+    url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406
+  - type: Operations
+    url: https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38s05.htm
+  - type: Examples
+    url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406
+  - type: SupportedObjects
+    url: https://www.veritas.com/content/support/en_US/doc/132757515-132757518-0/br74_viom_tot_v96212267-132757518
+- name: InfoScale for Kubernetes API
+  description: >-
+    API for administering and monitoring InfoScale in Kubernetes and OpenShift
+    container environments. Provides CSI driver integration for persistent
+    storage, volume snapshots, and storage class management with enterprise
+    data services for containerized applications.
+  humanURL: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485
+  tags:
+  - kubernetes
+  - containers
+  - CSI
+  - cloud native
+  - openshift
+  properties:
+  - type: Documentation
+    url: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485
+  - type: GettingStarted
+    url: https://www.veritas.com/support/en_US/doc/161711084-161711096-0/index
+  - type: Downloads
+    url: https://www.veritas.com/support/en_US/downloads/detail.REL134671
 common:
 - type: Portal
   url: https://my.veritas.com
@@ -84,7 +169,22 @@ common:
   url: https://www.veritas.com/blogs
 - type: Newsletter
   url: https://www.veritas.com/newsletter-signup
+- type: ProductOverview
+  url: https://www.veritas.com/availability/infoscale
+- type: Support
+  url: https://www.veritas.com/support/en_US/dpp.InfoScaleStorageFoundation
+- type: Community
+  url: https://vox.veritas.com/
+- type: SORT
+  url: https://sort.veritas.com/
+- type: ProductLanding
+  url: https://sort.veritas.com/prod_land?prod=infoscale
+- type: KubernetesProductLanding
+  url: https://sort.veritas.com/prod_land?prod=IK
 maintainers:
+- name: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com
 - name: Veritas Technologies LLC
   email: api-support@veritas.com
   url: https://www.veritas.com
