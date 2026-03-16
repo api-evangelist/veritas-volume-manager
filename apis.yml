@@ -1,4 +1,4 @@
-name: Veritas Volume Manager API
+name: Veritas Volume Manager
 description: APIs for managing storage volumes, disk groups, and file systems using Veritas Volume Manager (VVM)
 image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/volume-manager
