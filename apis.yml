@@ -5,7 +5,7 @@ description: >-
 image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/volume-manager
 created: '2024-01-01'
-modified: '2026-03-03'
+modified: '2026-04-19'
 specificationVersion: '0.16'
 tags:
   - Disaster Recovery
@@ -32,7 +32,7 @@ apis:
         url: https://api.veritas.com/vvm/v1/openapi.json
       - type: Authentication
         url: https://www.veritas.com/support/en_US/article.AUTH100
-      - type: SDKs
+      - type: SDK
         url: https://www.veritas.com/support/en_US/downloads/sdks
       - type: RateLimits
         url: https://www.veritas.com/support/en_US/article.LIMITS100
@@ -54,9 +54,9 @@ apis:
     properties:
       - type: Documentation
         url: https://www.veritas.com/support/en_US/article.CLI5555
-      - type: CommandReference
+      - type: APIReference
         url: https://www.veritas.com/support/en_US/article.CMDREF100
-      - type: Examples
+      - type: CodeExamples
         url: https://www.veritas.com/support/en_US/article.EXAMPLES100
   - name: Storage Foundation API
     description: >-
@@ -88,7 +88,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849
-      - type: SupportedOperations
+      - type: APIReference
         url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849
       - type: ReleaseNotes
         url: https://www.veritas.com/support/en_US/doc/109864724-166315456-0/index
@@ -106,9 +106,9 @@ apis:
     properties:
       - type: Documentation
         url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
-      - type: HAConfiguration
+      - type: Documentation
         url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151835060-166315478
-      - type: SolutionsGuide
+      - type: Documentation
         url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v109543903-166315478
   - name: InfoScale Operations Manager Web Services API
     description: >-
@@ -131,11 +131,11 @@ apis:
         url: https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38s01.htm
       - type: Authentication
         url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406
-      - type: Operations
+      - type: APIReference
         url: https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38s05.htm
-      - type: Examples
+      - type: CodeExamples
         url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406
-      - type: SupportedObjects
+      - type: APIReference
         url: https://www.veritas.com/content/support/en_US/doc/132757515-132757518-0/br74_viom_tot_v96212267-132757518
   - name: InfoScale for Kubernetes API
     description: >-
@@ -155,7 +155,7 @@ apis:
         url: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485
       - type: GettingStarted
         url: https://www.veritas.com/support/en_US/doc/161711084-161711096-0/index
-      - type: Downloads
+      - type: Documentation
         url: https://www.veritas.com/support/en_US/downloads/detail.REL134671
 common:
   - type: Portal
@@ -166,26 +166,20 @@ common:
     url: https://www.veritas.com/about/legal/license-agreements
   - type: PrivacyPolicy
     url: https://www.veritas.com/about/legal/privacy-policy
-  - type: Status
+  - type: StatusPage
     url: https://status.veritas.com
   - type: ChangeLog
     url: https://www.veritas.com/support/en_US/article.CHANGELOG
   - type: Blog
     url: https://www.veritas.com/blogs
-  - type: Newsletter
-    url: https://www.veritas.com/newsletter-signup
-  - type: ProductOverview
-    url: https://www.veritas.com/availability/infoscale
   - type: Support
     url: https://www.veritas.com/support/en_US/dpp.InfoScaleStorageFoundation
-  - type: Community
-    url: https://vox.veritas.com/
-  - type: SORT
-    url: https://sort.veritas.com/
-  - type: ProductLanding
-    url: https://sort.veritas.com/prod_land?prod=infoscale
-  - type: KubernetesProductLanding
-    url: https://sort.veritas.com/prod_land?prod=IK
+  - type: Features
+    url: https://www.veritas.com/availability/infoscale
+  - type: UseCases
+    url: https://www.veritas.com/availability/infoscale
+  - type: Integrations
+    url: https://www.veritas.com/availability/infoscale
 maintainers:
   - name: Kin Lane
     email: kin@apievangelist.com
