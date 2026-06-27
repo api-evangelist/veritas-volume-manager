@@ -32,7 +32,7 @@ apis:
         url: https://api.veritas.com/vvm/v1/openapi.json
       - type: Authentication
         url: https://www.veritas.com/support/en_US/article.AUTH100
-      - type: SDK
+      - type: SDKs
         url: https://www.veritas.com/support/en_US/downloads/sdks
       - type: RateLimits
         url: https://www.veritas.com/support/en_US/article.LIMITS100
