@@ -158,6 +158,10 @@ apis:
       - type: Documentation
         url: https://www.veritas.com/support/en_US/downloads/detail.REL134671
 common:
+  - type: VulnerabilityDisclosure
+    url: security/veritas-volume-manager-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/veritas-volume-manager-domain-security.yml
   - type: Portal
     url: https://my.veritas.com
   - type: GettingStarted
