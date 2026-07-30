@@ -2,6 +2,18 @@ name: Veritas Volume Manager
 description: >-
   APIs for managing storage volumes, disk groups, and file systems using Veritas Volume
   Manager (VVM).
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/volume-manager
 created: '2024-01-01'
