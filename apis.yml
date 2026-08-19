@@ -18,7 +18,7 @@ image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/volume-manager
 created: '2024-01-01'
 modified: '2026-04-19'
-specificationVersion: '0.16'
+specificationVersion: '0.23'
 tags:
   - Disaster Recovery
   - Enterprise Storage
