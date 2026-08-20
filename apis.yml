@@ -22,6 +22,12 @@ specificationVersion: '0.23'
 tags:
   - Disaster Recovery
   - Enterprise Storage
+  - Filesystem
+  - Storage
+  - Volume Management
+tags_raw:
+  - Disaster Recovery
+  - Enterprise Storage
   - File Systems
   - Storage
   - Volume Management
@@ -94,6 +100,12 @@ apis:
     tags:
       - Cluster Management
       - High Availability
+      - InfoScale
+      - REST
+      - Storage Configuration
+    tags_raw:
+      - Cluster Management
+      - High Availability
       - Infoscale
       - REST
       - Storage Configuration
@@ -111,6 +123,11 @@ apis:
       and expanded supported operations for enterprise storage management.
     humanURL: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
     tags:
+      - Enterprise
+      - InfoScale
+      - REST
+      - Storage Management
+    tags_raw:
       - Enterprise
       - Infoscale
       - REST
@@ -157,6 +174,12 @@ apis:
       data services for containerized applications.
     humanURL: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485
     tags:
+      - Cloud-Native
+      - Containers
+      - CSI
+      - Kubernetes
+      - OpenShift
+    tags_raw:
       - Cloud Native
       - Containers
       - CSI
