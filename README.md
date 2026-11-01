@@ -1,4 +1,4 @@
-# Veritas Volume Manager (veritas-volume-manager)
+# Veritas Volume Manager
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,137 +66,113 @@
 
 APIs for managing storage volumes, disk groups, and file systems using Veritas Volume Manager (VVM).
 
-**URL:** [Visit APIs.json URL](https://www.veritas.com/support/en_US/volume-manager)
+**Areas:** Disaster Recovery · Enterprise Storage · Filesystem · Storage · Volume Management
 
-## Tags:
+## Veritas Volume Manager on APIs.io
 
- - Disaster Recovery, Enterprise Storage, File Systems, Storage, Volume Management
+Everything profiled for Veritas Volume Manager is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veritas-volume-manager/](https://apis.io/providers/veritas-volume-manager/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (7)
 
-- **Created:** 2024-01-01 
-- **Modified:** 2026-04-19 
+- [Veritas Volume Manager REST API](https://apis.io/apis/veritas-volume-manager/veritas-volume-manager-rest-api/) — RESTful API for managing storage volumes, disk groups, and storage operations.
+- [VxVM Command Line API](https://apis.io/apis/veritas-volume-manager/vxvm-command-line-api/) — Command-line interface and scripting API for Veritas Volume Manager operations.
+- [Storage Foundation API](https://apis.io/apis/veritas-volume-manager/storage-foundation-api/) — Comprehensive API for Veritas Storage Foundation including volume management.
+- [Veritas InfoScale REST API](https://apis.io/apis/veritas-volume-manager/veritas-infoscale-rest-api/) — REST API for InfoScale storage configuration and management operations including volume, disk group, and cluster management. The REST server is configured…
+- [Veritas InfoScale 9.0 REST API](https://apis.io/apis/veritas-volume-manager/veritas-infoscale-90-rest-api/) — REST API support for InfoScale 9.0 providing storage configuration and management operations, including HA configuration for the REST server and expanded…
+- [InfoScale Operations Manager Web Services API](https://apis.io/apis/veritas-volume-manager/infoscale-operations-manager-web-services-api/) — HTTPS-based Web Services API for Veritas InfoScale Operations Manager (VIOM) providing the ability to query discovered data, manage user-defined attributes,…
+- [InfoScale for Kubernetes API](https://apis.io/apis/veritas-volume-manager/infoscale-for-kubernetes-api/) — API for administering and monitoring InfoScale in Kubernetes and OpenShift container environments. Provides CSI driver integration for persistent storage,…
 
-## APIs
+### Published properties
 
-### Veritas Volume Manager REST API
-RESTful API for managing storage volumes, disk groups, and storage operations.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://www.veritas.com/support/en_US/volume-manager](https://www.veritas.com/support/en_US/volume-manager)
+#### Security (2)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - Disk Groups, Snapshots, Storage Pools, Volumes
+- [Veritas Volume Manager Domain Security](https://apis.io/security/veritas-volume-manager/veritas-volume-manager-domain-security/)
+- [Veritas Volume Manager Vulnerability Disclosure](https://apis.io/security/veritas-volume-manager/veritas-volume-manager-vulnerability-disclosure/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://www.veritas.com/support/en_US/article.DOC5555)
-- [OpenAPI](https://api.veritas.com/vvm/v1/openapi.json)
-- [Authentication](https://www.veritas.com/support/en_US/article.AUTH100)
-- [SDK](https://www.veritas.com/support/en_US/downloads/sdks)
-- [RateLimits](https://www.veritas.com/support/en_US/article.LIMITS100)
+Published plans, tiers and prices.
 
-### VxVM Command Line API
-Command-line interface and scripting API for Veritas Volume Manager operations.
+- [Veritas Volume Manager Plans Pricing](https://apis.io/plans/veritas-volume-manager/veritas-volume-manager-plans-pricing/)
 
-**Human URL:** [https://www.veritas.com/support/en_US/article.VXVM100](https://www.veritas.com/support/en_US/article.VXVM100)
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - Administration, CLI, Scripting
+- [Veritas Volume Manager Rate Limits](https://apis.io/rate-limits/veritas-volume-manager/veritas-volume-manager-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://www.veritas.com/support/en_US/article.CLI5555)
-- [APIReference](https://www.veritas.com/support/en_US/article.CMDREF100)
-- [CodeExamples](https://www.veritas.com/support/en_US/article.EXAMPLES100)
+What the API costs to run, by operation.
 
-### Storage Foundation API
-Comprehensive API for Veritas Storage Foundation including volume management.
+- [Veritas Volume Manager Finops](https://apis.io/finops/veritas-volume-manager/veritas-volume-manager-finops/)
 
-**Human URL:** [https://www.veritas.com/support/en_US/storage-foundation](https://www.veritas.com/support/en_US/storage-foundation)
+## Where to find this API
 
-#### Tags:
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
- - Enterprise, High Availability, Storage Foundation
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/article.SF5555)
-- [APIReference](https://api.veritas.com/sf/v1/docs)
-
-### Veritas InfoScale REST API
-REST API for InfoScale storage configuration and management operations.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849](https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849)
-
-#### Tags:
-
- - Cluster Management, High Availability, InfoScale, REST, Storage Configuration
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849)
-- [APIReference](https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849)
-- [ReleaseNotes](https://www.veritas.com/support/en_US/doc/109864724-166315456-0/index)
-
-### Veritas InfoScale 9.0 REST API
-REST API support for InfoScale 9.0 providing expanded storage management operations.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
-
-#### Tags:
-
- - Enterprise, Infoscale, REST, Storage Management
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
-
-### InfoScale Operations Manager Web Services API
-HTTPS-based Web Services API for InfoScale Operations Manager (VIOM).
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index)
-
-#### Tags:
-
- - Management, Monitoring, Operations Manager, VIOM, Web Services
-
-#### Properties
-
-- [Documentation](https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38.htm)
-- [GettingStarted](https://sort.veritas.com/public/documents/vom/7.3/windowsandunix/productguides/html/viom_user/ch38s01.htm)
-- [Authentication](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406)
-- [CodeExamples](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406)
-
-### InfoScale for Kubernetes API
-API for administering and monitoring InfoScale in Kubernetes and OpenShift container environments.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485)
-
-#### Tags:
-
- - Cloud Native, Containers, CSI, Kubernetes, Openshift
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485)
-- [GettingStarted](https://www.veritas.com/support/en_US/doc/161711084-161711096-0/index)
-
-## Common Properties
-
-- [Portal](https://my.veritas.com)
-- [GettingStarted](https://www.veritas.com/support/en_US/article.GETSTART100)
-- [TermsOfService](https://www.veritas.com/about/legal/license-agreements)
-- [PrivacyPolicy](https://www.veritas.com/about/legal/privacy-policy)
-- [StatusPage](https://status.veritas.com)
-- [ChangeLog](https://www.veritas.com/support/en_US/article.CHANGELOG)
-- [Blog](https://www.veritas.com/blogs)
+- [Website](https://veritas.com)
+- [Getting started](https://www.veritas.com/support/en_US/article.GETSTART100)
 - [Support](https://www.veritas.com/support/en_US/dpp.InfoScaleStorageFoundation)
-- [Features](https://www.veritas.com/availability/infoscale)
-- [UseCases](https://www.veritas.com/availability/infoscale)
-- [Integrations](https://www.veritas.com/availability/infoscale)
+- [Changelog](https://www.veritas.com/support/en_US/article.CHANGELOG)
+- [Blog](https://www.veritas.com/blogs)
+- [Terms of service](https://www.veritas.com/about/legal/license-agreements)
+- [Privacy policy](https://www.veritas.com/about/legal/privacy-policy)
+- [Status](https://status.veritas.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane, **Email:** kin@apievangelist.com
+**Kin Score 37.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 30.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 28.9 |
+
+**Agent readiness 19.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veritas-volume-manager/](https://apis.io/providers/veritas-volume-manager/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Veritas Volume Manager: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veritas-volume-manager/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
